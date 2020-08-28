@@ -6,7 +6,7 @@ import Header from "../Header";
 
 import Selected from "../Selected";
 import NotSelected from "../NotSelected";
-import info from '/home/hira/zomato-api/src/info.js';
+import info from './info.js';
 
 
 function cardEntry(item){
