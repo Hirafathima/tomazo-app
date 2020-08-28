@@ -90,3 +90,36 @@ img.card-img-top{
 .about{
   margin: 10rem;
 }
+
+.view{
+  padding: 5rem;
+}
+
+.viewImg{
+  border-radius: 100%;
+  margin: 1.5rem; 
+  display:inline;
+}
+
+.viewName{
+  font-size: 2rem; 
+  color: black; 
+  font-weight: bold;
+  display: inline;
+}
+
+.timeIcon{
+  display: inline;
+  margin-right: 1rem;
+  margin-left: 15%;
+}
+
+.timeText{
+  display: inline;
+}
+
+.viewMenu{
+  margin-left: 15%;
+  padding-top: 2rem;
+}
+

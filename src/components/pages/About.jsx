@@ -12,7 +12,8 @@ export default function About(){
                 Eveniet, sapiente? Ullam ut impedit natus veniam nobis, eligendi at molestiae!
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                 Iste aspernatur, doloremque deleniti esse excepturi at inventore amet id quod. 
-                Eveniet, sapiente? Ullam ut impedit natus veniam nobis, eligendi at molestiae!</p>
+                Eveniet, sapiente? Ullam ut impedit natus veniam nobis, eligendi at molestiae!
+                </p>
         </div>
 
     )

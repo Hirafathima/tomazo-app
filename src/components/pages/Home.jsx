@@ -3,7 +3,6 @@ import React, { useState, useEffect } from 'react';
 import Card from "../Card";
 import Header from "../Header";
 
-
 import Selected from "../Selected";
 import NotSelected from "../NotSelected";
 import info from './info.js';
@@ -28,12 +27,14 @@ function Home(){
   const [rest, setRest] = useState(null);
   const [cityId, setCityId] = useState(null);
   const [cityName, setCityName] = useState(null);
+ 
 
 
-  function onSelect(i){
-    setCityId(location.location_suggestions[i].id)
-  }
-
+    function onSelect(i){
+      setCityId(location.location_suggestions[i].id)
+    }
+  
+  
   useEffect(() => {
     const getLocation = () => {
       info
@@ -68,6 +69,7 @@ useEffect(() => {
 
 
 
+
 return(
   <div>
     
@@ -75,7 +77,7 @@ return(
     {cityName === null? <NotSelected /> : <Selected name={cityName.city} />}
     {cityId === null ? "": 
     <div class="row row-cols-1 row-cols-md-3">
-    {rest === null ? "loading..." : rest.restaurants.map(cardEntry)}
+    {rest === null ? "" : rest.restaurants.map(cardEntry)}
     </div>
     }
     
